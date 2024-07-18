@@ -42,7 +42,7 @@ func (m *Manager) CreateModuleQueryExec(args QueryArgs) (string, error) {
 
 	// Build the query command
 	cmd := []string{
-		"evmosd",
+		"meroneumd",
 		"q",
 		args.Module,
 		args.SubCommand,

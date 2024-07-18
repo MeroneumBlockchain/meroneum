@@ -19,7 +19,7 @@ type E2ETxArgs struct {
 // CreateModuleTxExec creates the execution command for an Evmos transaction.
 func (m *Manager) CreateModuleTxExec(txArgs E2ETxArgs) (string, error) {
 	cmd := []string{
-		"evmosd",
+		"meroneumd",
 		"tx",
 		txArgs.ModuleName,
 		txArgs.SubCommand,

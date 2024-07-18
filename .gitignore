@@ -83,3 +83,7 @@ dependency-graph.png
 
 # OpenZeppelin contracts
 contracts/@openzeppelin/*
+
+output.txt
+newcmd.sh
+local_node.sh

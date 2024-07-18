@@ -17,13 +17,13 @@ export PATH=$PATH:~/go/bin
 # go install -ldflags '-w -s -X github.com/cosmos/cosmos-sdk/types.DBBackend=badgerdb' -tags badgerdb ./...
 # go install -ldflags '-w -s -X github.com/cosmos/cosmos-sdk/types.DBBackend=boltdb' -tags boltdb ./...
 # Initialize chain.
-evmosd init test --chain-id evmos_9000-2
+evmosd init test --chain-id meroneum_3369-2
 
 # Get Genesis
 wget https://archive.evmos.org/mainnet/genesis.json
-mv genesis.json ~/.evmosd/config/
+mv genesis.json ~/.meroneumd/config/
 
-wget -O ~/.evmosd/config/adrbook.json https://snapshot.notional.ventures/evmos/addrbook.json
+wget -O ~/.meroneumd/config/adrbook.json https://snapshot.notional.ventures/evmos/addrbook.json
 
 # Get "trust_hash" and "trust_height".
 INTERVAL=1000

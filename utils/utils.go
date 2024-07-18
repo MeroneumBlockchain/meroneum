@@ -22,9 +22,9 @@ import (
 
 const (
 	// MainnetChainID defines the Evmos EIP155 chain ID for mainnet
-	MainnetChainID = "evmos_9001"
+	MainnetChainID = "meroneum_3366"
 	// TestnetChainID defines the Evmos EIP155 chain ID for testnet
-	TestnetChainID = "evmos_9000"
+	TestnetChainID = "meroneum_3369"
 	// TestingChainID defines the Evmos EIP155 chain ID for integration test
 	TestingChainID = "test_9000"
 	// BaseDenom defines the Evmos mainnet denomination

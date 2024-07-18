@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CHAINID="${CHAIN_ID:-evmos_9000-1}"
+CHAINID="${CHAIN_ID:-meroneum_3369-1}"
 MONIKER="localtestnet"
 # Remember to change to other types of keyring like 'file' in-case exposing to outside world,
 # otherwise your balance will be wiped quickly
@@ -191,9 +191,9 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 	## In case you want to create multiple validators at genesis
 	## 1. Back to `evmosd keys add` step, init more keys
 	## 2. Back to `evmosd add-genesis-account` step, add balance for those
-	## 3. Clone this ~/.evmosd home directory into some others, let's say `~/.clonedEvmosd`
+	## 3. Clone this ~/.meroneumd home directory into some others, let's say `~/.clonedEvmosd`
 	## 4. Run `gentx` in each of those folders
-	## 5. Copy the `gentx-*` folders under `~/.clonedEvmosd/config/gentx/` folders into the original `~/.evmosd/config/gentx`
+	## 5. Copy the `gentx-*` folders under `~/.clonedEvmosd/config/gentx/` folders into the original `~/.meroneumd/config/gentx`
 
 	# Collect genesis tx
 	evmosd collect-gentxs --home "$HOMEDIR"

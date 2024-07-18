@@ -1,7 +1,7 @@
 local config = import 'default.jsonnet';
 
 config {
-  'evmos_9000-1'+: {
+  'meroneum_3369-1'+: {
     'app-config'+: {
       pruning: 'everything',
       'state-sync'+: {

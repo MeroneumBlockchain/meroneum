@@ -12,7 +12,7 @@ from web3.middleware import geth_poa_middleware
 from .cosmoscli import CosmosCLI
 from .utils import memiavl_config, supervisorctl, wait_for_port
 
-DEFAULT_CHAIN_BINARY = "evmosd"
+DEFAULT_CHAIN_BINARY = "meroneumd"
 
 
 class Evmos:
@@ -120,7 +120,7 @@ def setup_evmos(path, base_port, long_timeout_commit=False):
 # for the nodes
 def create_snapshots_dir(path, base_port, config, n_nodes=2):
     for idx in range(n_nodes):
-        data_snapshots_dir = path / "evmos_9000-1" / f"node{idx}" / "data" / "snapshots"
+        data_snapshots_dir = path / "meroneum_3369-1" / f"node{idx}" / "data" / "snapshots"
         os.makedirs(data_snapshots_dir, exist_ok=True)
 
 
@@ -199,7 +199,7 @@ def setup_custom_evmos(
             wait_for_port(ports.evmrpc_port(base_port))
             wait_for_port(ports.evmrpc_ws_port(base_port))
         yield Evmos(
-            path / "evmos_9000-1", chain_binary=chain_binary or DEFAULT_CHAIN_BINARY
+            path / "meroneum_3369-1", chain_binary=chain_binary or DEFAULT_CHAIN_BINARY
         )
     finally:
         os.killpg(os.getpgid(proc.pid), signal.SIGTERM)

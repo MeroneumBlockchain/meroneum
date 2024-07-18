@@ -1,5 +1,5 @@
 dotenv: .env
-evmos_9000-1:
+meroneum_3369-1:
   cmd: evmosd
   start-flags: "--trace"
   app-config:
