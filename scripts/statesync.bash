@@ -8,8 +8,8 @@
 ## USAGE RUNDOWN
 # Not for use on live nodes
 # For use when testing.
-# Assumes that ~/.evmosd doesn't exist
-# can be modified to suit your purposes if ~/.evmosd does already exist
+# Assumes that ~/.meroneumd doesn't exist
+# can be modified to suit your purposes if ~/.meroneumd does already exist
 
 
 set -uxe
@@ -31,11 +31,11 @@ go install ./...
 # go install -ldflags '-w -s -X github.com/cosmos/cosmos-sdk/types.DBBackend=boltdb' -tags boltdb ./...
 
 # Initialize chain.
-evmosd init test --chain-id evmos_9000-1
+evmosd init test --chain-id meroneum_3369-1
 
 # Get Genesis
 wget https://archive.evmos.org/mainnet/genesis.json
-mv genesis.json ~/.evmosd/config/
+mv genesis.json ~/.meroneumd/config/
 
 
 # Get "trust_hash" and "trust_height".

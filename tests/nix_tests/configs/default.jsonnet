@@ -1,6 +1,6 @@
 {
   dotenv: '../../../scripts/.env',
-  'evmos_9000-1': {
+  'meroneum_3369-1': {
     'account-prefix': 'evmos',
     'coin-type': 60,
     cmd: 'evmosd',

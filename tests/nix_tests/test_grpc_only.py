@@ -101,7 +101,7 @@ def test_grpc_mode(evmos_cluster: Evmos):
     # wait 1 more block for both nodes to avoid node stopped before tnx get included
     for i in range(2):
         wait_for_block(evmos_cluster.cosmos_cli(i), 1)
-    supervisorctl(evmos_cluster.base_dir / "../tasks.ini", "stop", "evmos_9000-1-node1")
+    supervisorctl(evmos_cluster.base_dir / "../tasks.ini", "stop", "meroneum_3369-1-node1")
 
     # run grpc-only mode directly with existing chain state
     with (evmos_cluster.base_dir / "node1.log").open("a") as logfile:
@@ -145,7 +145,7 @@ def test_grpc_mode(evmos_cluster: Evmos):
             rsp = grpc_eth_call(
                 api_port,
                 msg,
-                chain_id="evmos_9000",
+                chain_id="meroneum_3369",
                 proposer_address=proposer_addr,
             )
             assert rsp["code"] != 0, str(rsp)
