@@ -4,60 +4,32 @@ parent:
 -->
 
 <div align="center">
-  <h1> Evmos </h1>
+  <h1> Meroneum </h1>
 </div>
 
-<div align="center">
-  <a href="https://github.com/evmos/evmos/releases/latest">
-    <img alt="Version" src="https://img.shields.io/github/tag/evmos/evmos.svg" />
-  </a>
-  <a href="https://github.com/evmos/evmos/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/evmos/evmos.svg" />
-  </a>
-  <a href="https://pkg.go.dev/github.com/evmos/evmos">
-    <img alt="GoDoc" src="https://godoc.org/github.com/evmos/evmos?status.svg" />
-  </a>
-  <a href="https://goreportcard.com/report/github.com/evmos/evmos">
-    <img alt="Go report card" src="https://goreportcard.com/badge/github.com/evmos/evmos"/>
-  </a>
-</div>
-<div align="center">
-  <a href="https://discord.gg/evmos">
-    <img alt="Discord" src="https://img.shields.io/discord/809048090249134080.svg" />
-  </a>
-  <a href="https://github.com/evmos/evmos/actions?query=branch%3Amain+workflow%3ALint">
-    <img alt="Lint Status" src="https://github.com/evmos/evmos/actions/workflows/lint.yml/badge.svg?branch=main" />
-  </a>
-  <a href="https://codecov.io/gh/evmos/evmos">
-    <img alt="Code Coverage" src="https://codecov.io/gh/evmos/evmos/branch/main/graph/badge.svg" />
-  </a>
-  <a href="https://twitter.com/EvmosOrg">
-    <img alt="Twitter Follow Evmos" src="https://img.shields.io/twitter/follow/EvmosOrg"/>
-  </a>
-</div>
 
 ## About
 
-Evmos is a scalable, high-throughput Proof-of-Stake EVM blockchain
+Meroneum is a scalable, high-throughput Proof-of-Stake EVM blockchain
 that is fully compatible and interoperable with Ethereum.
 It's built using the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk/)
 which runs on top of the [CometBFT](https://github.com/cometbft/cometbft) consensus engine.
 
 ## Quick Start
 
-To learn how Evmos works from a high-level perspective,
-go to the [Protocol Overview](https://docs.evmos.org/protocol) section of the documentation.
-You can also check the instructions to [Run a Node](https://docs.evmos.org/protocol/evmos-cli#run-an-evmos-node).
+To learn how Meroneum works from a high-level perspective,
+go to the [Protocol Overview](https://docs.meroneum.com/protocol) section of the documentation.
+You can also check the instructions to [Run a Node](https://docs.meroneum.com/protocol/evmos-cli#run-an-evmos-node).
 
 ## Documentation
 
-Our documentation is hosted in a [separate repository](https://github.com/evmos/docs) and can be found at [docs.evmos.org](https://docs.evmos.org).
+Our documentation is hosted in a [separate repository](https://github.com/evmos/docs) and can be found at [docs.meroneum.com](https://docs.meroneum.com).
 Head over there and check it out.
 
 ## Installation
 
 For prerequisites and detailed build instructions
-please read the [Installation](https://docs.evmos.org/protocol/evmos-cli) instructions.
+please read the [Installation](https://docs.meroneum.com/protocol/evmos-cli) instructions.
 Once the dependencies are installed, run:
 
 ```bash
@@ -68,19 +40,12 @@ Or check out the latest [release](https://github.com/evmos/evmos/releases).
 
 ## Community
 
-The following chat channels and forums are great spots to ask questions about Evmos:
+The following chat channels and forums are great spots to ask questions about Meroneum:
 
-- [Evmos Twitter](https://twitter.com/EvmosOrg)
-- [Evmos Discord](https://discord.gg/evmos)
-- [Evmos Forum](https://commonwealth.im/evmos)
+- [Meroneum Twitter](https://twitter.com/Meroneum)
+- [Meroneum Discord](https://discord.gg/Meroneum)
+- [Meroneum Forum](https://commonwealth.im/Meroneum)
 
-## Contributing
-
-Looking for a good place to start contributing?
-Check out some
-[`good first issues`](https://github.com/evmos/evmos/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
-
-For additional instructions, standards and style guides, please refer to the [Contributing](./CONTRIBUTING.md) document.
 
 ## Careers
 
@@ -104,7 +69,7 @@ of the Evmos repository. For more information see [LICENSE](./LICENSE).
 > [!WARNING]
 >
 > **NOTE: If you are interested in using this software**
-> email us at [os@evmos.org](mailto:os@evmos.org).
+> email us at [os@meroneum.com](mailto:os@meroneum.com).
 
 ### SPDX Identifier
 
